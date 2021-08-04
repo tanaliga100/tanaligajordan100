@@ -1,7 +1,7 @@
 <template>
 <div class="skills">
       <h2>Logic & Design </h2>
-      <h4 style="color: tan; word-spacing:5px; letter-spacing: 1px; font-size:1em;">Two things that got me hook into Web Development</h4>
+      <h4 style="">Two things that got me hook into Web Development</h4>
       <div class="logic">
         <ul>
           <div>
@@ -45,6 +45,7 @@
   background: white;
   color:crimson;
   text-align: center;
+
 }
 .logic{
   display: grid;
@@ -71,6 +72,11 @@ h4{
   margin-top:0 ;
   font-weight: 100;
   letter-spacing: 2px;
+  color: rgb(121, 74, 13); 
+  word-spacing:5px; 
+  letter-spacing: 1px; 
+  font-size:medium;
+ 
 }
 h3 {
   color: rgb(138, 114, 82);
@@ -104,7 +110,7 @@ p {
   border-radius: 20px;
   /* box-shadow: 0px 0px 10px 0px; */
   margin: 10px 40px;
-  background:rgba(210, 180, 140, 0.015);
+  background:rgba(255, 255, 255, 0.207);
   color: white;
 }
 .list {
@@ -113,7 +119,10 @@ p {
 .icon {
 padding-top: 20px;
 }
-
+h4 {
+  font-size: medium;
+  margin: 0px 10px
+}
 
 }
 </style>

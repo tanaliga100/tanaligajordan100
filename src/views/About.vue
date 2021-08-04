@@ -32,6 +32,7 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: max-content;
 }
 #category{
   margin-top: 20px;

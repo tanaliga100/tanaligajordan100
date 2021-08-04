@@ -110,7 +110,7 @@ a {
 .para {
       letter-spacing: 1px;  
        word-spacing: 2px;
-       color:tan;
+       color:rgba(46, 44, 41, 0.809);
        font-weight: lighter;
 }
 
@@ -138,9 +138,9 @@ a {
     .para {
       letter-spacing: 1px;  
        word-spacing: 2px;
-       color:tan;
+       color:rgb(65, 39, 5);
        font-weight: lighter;
-       font-size: small;
+       font-size: medium;
        margin-bottom: 30px;
 }
     .contact {

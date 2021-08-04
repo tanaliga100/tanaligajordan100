@@ -37,13 +37,13 @@ export default {
     background: white;
 }
 .stacks {
-  background: rgba(255, 255, 255, 0.015);
+  background: rgb(255, 255, 255);
 }
 .projects{
-  background: rgba(0, 0, 0, 0.042);
+  background: rgb(255, 255, 255);
 }
 .footer {
-  background: rgba(255, 255, 255, 0.234);
+  background: rgba(252, 252, 252, 0.234);
 }
 .links{
    background: white;

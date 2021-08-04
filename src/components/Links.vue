@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+
         <div class="middle">
             <div class="links">
                 <a target="_blank"  :href="link1"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/></a>
@@ -13,7 +13,7 @@
             <br>
         </div>
             <!-- <small class="copyright">&#169; 2019 <cite>jordantanaliga100</cite></small> -->
-    </div>
+
 </template>
 
 <script>
@@ -32,13 +32,11 @@
 <style scoped>
 
 .wrapper {
-    height: 100px;
-    width: 100%;
+    
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    text-align: center;
 
 }
 
@@ -46,13 +44,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px
+    gap: 30px;
+    height:100px;
+    width: 100%;
+    text-align: center;
+    
 }
 .middle:hover {
     cursor: pointer;
     height: 10px;
     text-decoration: underline;
     
+}
+.links {
+    align-self: center;
+    place-content: center;
+    place-items: center;
 }
 .copyright {
     text-align: center;

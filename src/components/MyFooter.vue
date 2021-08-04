@@ -9,17 +9,22 @@
             </address>
         </div>
         <div class="right">
-   
                 <!-- <a href="mailto:jordantanaliga@gmail.com?subject=Hello%20Jordan ~?"> 
                 Contact Me
                 <a/> -->
-                <button class="resume">
-                    <a href="require('../src/assets/TanaligaCV.pdf')" download > Download Resume</a>
+                <button class="resume"  
+                    v-bind="status"
+                    @click="event"
+                    v-once
+                    >
+                    <a :href="'../src/assets/Tanaliga100.pdf'" download > 
+                    <span v-if="!isDownloaded"  >Download Resume</span>
+                    <span v-else v-bind:class="{'sucess': isDownloaded}">Downloaded !</span>
+                    </a>
                 </button>
             <!-- <Contact/> -->
         </div>
     </div>
-
 </template>
 
 <script>
@@ -27,13 +32,27 @@
         name: 'MyFooter',
         data() {
             return {
-
+                isDownloaded: false,
+                clicked: 0,
+                publicPath: process.env.BASE_URL
+            }
+        },
+        methods : {
+            event() {
+                this.isDownloaded = !this.isDownloaded
+                this.clicked++;
             }
         }
+        
     }
 </script>
 
 <style scoped>
+.sucess {
+    color: rgb(255, 217, 0);
+    font-size: bold;
+
+}
 .my-footer {
     width: 100%;
     background: white;
