@@ -22,7 +22,7 @@ export default {
       greet: "Hello !",
       name: "I am Jordan Tanaliga",
       profession: "Front-End Web Developer ||",
-      para: "Creating the best looking web applications with good user experience is my JOB.  And I highly recommend myself in developing single-page-applications using Vue.js.",
+      para: "Creating the best looking web applications with good user experience is my JOB. And I highly recommend myself in developing single-page-applications using Vue.js.",
       img: "https://cdna.artstation.com/p/assets/images/images/014/009/938/large/ekachai-milintapas-chris-martin.jpg?1542065546",
       pic: "../src/assets/niana.jpg"
     }
