@@ -2,7 +2,7 @@
   <div id="nav">
     <router-link to="/"> Home</router-link> 
     <router-link to="/about">About</router-link> 
-    <router-link :to="{name: 'Services'}">Services</router-link> 
+    <!-- <router-link :to="{name: 'Services'}">Services</router-link>  -->
   </div>
   <router-view/>      
 </template>
@@ -10,13 +10,12 @@
 <script>
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import Services from './views/Services.vue'
+// import Services from './views/Services.vue'
 
 export default {
   components: {
     Home,
-    About,
-    Services
+    About
   },
   data() {
     return {

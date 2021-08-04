@@ -14,12 +14,12 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
-  },
-  {
-    path: '/services',
-    name: 'Services',
-    component: Services
   }
+  // {
+  //   path: '/services',
+  //   name: 'Services',
+  //   component: Services
+  // }
   // {
   //   path: '/contact',
   //   name: 'Contact',
