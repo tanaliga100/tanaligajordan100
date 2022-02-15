@@ -1,5 +1,5 @@
 # vuex
-
+My First Web Portfolio written in Vue js !
 ## Project setup
 ```
 npm install
